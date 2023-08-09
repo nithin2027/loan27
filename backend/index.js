@@ -5,7 +5,7 @@ const cors = require('cors')
 const bodyParser = require('body-parser')
 
 const mongoose = require('mongoose')
-mongoose.connect("mongodb+srv://nithin2727:mongo123@cluster0.c6kugbc.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("mongodb+srv://2727:123@cluster0.c6kugbc.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true })
 
 
 app.use(cors())
